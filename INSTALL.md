@@ -4,7 +4,7 @@
 
 1. **下载此仓库**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/lpf479/Aqara_David.git
    ```
 
 2. **复制到Home Assistant配置目录**
