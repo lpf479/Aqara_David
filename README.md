@@ -1,4 +1,4 @@
-# Aqara Bridge for Home Assistant (Enhanced Version)
+# Aqara_David - Aqara Bridge for Home Assistant
 
 [![version](https://img.shields.io/badge/version-26.2.24.2-blue.svg)](https://github.com/lpf479/Aqara_David/releases)
 [![hacs](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz)
