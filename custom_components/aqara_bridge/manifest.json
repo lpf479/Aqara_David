@@ -1,0 +1,13 @@
+{
+    "domain": "aqara_bridge",
+    "name": "Aqara Bridge Enhanced",
+    "config_flow": true,
+    "iot_class": "cloud_polling",
+    "documentation": "https://github.com/YOUR_USERNAME/YOUR_REPO",
+    "issue_tracker": "https://github.com/YOUR_USERNAME/YOUR_REPO/issues",
+    "requirements": ["rocketmq"],
+    "dependencies": [],
+    "after_dependencies": ["homekit"],
+    "codeowners": ["@angeljanne","@meishild","@bernard3378"],
+    "version": "26.2.24.2"
+  }
