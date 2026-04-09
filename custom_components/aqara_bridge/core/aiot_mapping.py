@@ -2199,8 +2199,8 @@ AIOT_DEVICE_MAPPING = [
         ],
     },
     {
-        # Aqara 智能灯具 acn036
-        "lumi.light.acn036": ["Aqara", "Smart Light acn036", ""],
+        # Aqara 射灯 V1
+        "lumi.light.acn036": ["Aqara", "射灯 V1", ""],
         "params": [
             {
                 "light": {
@@ -2212,13 +2212,12 @@ AIOT_DEVICE_MAPPING = [
                         },
                         "color_mode": ColorMode.COLOR_TEMP,
                         "min_color_temp_kelvin": 2703,
-                        "max_color_temp_kelvin": 6500,
+                        "max_color_temp_kelvin": 6024,
                     },
                     MK_RESOURCES: {
                         "toggle": ("4.1.85", "_attr_is_on"),
-                        "brightness": ("14.1.85", "_attr_brightness"),
-                        "color_temp_kelvin": ("14.2.85", "_attr_color_temp_kelvin"),
-                        "zigbee_lqi": ("8.0.2007", "_attr_zigbee_lqi"),
+                        "brightness": ("1.7.85", "_attr_brightness"),
+                        "color_temp_kelvin": ("1.9.85", "_attr_color_temp_kelvin"),
                     },
                 }
             },
