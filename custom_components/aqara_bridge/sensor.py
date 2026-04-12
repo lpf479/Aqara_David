@@ -56,6 +56,8 @@ class AiotSensorEntity(AiotEntityBase, SensorEntity):
             return int(res_value)
         if res_name == "density":
             return int(res_value)
+        if res_name == "power":
+            return round(float(res_value), 1)
         if res_name == "energy":
             return round(float(res_value) / 1000.0, 3)
         if res_name == "current":

@@ -2221,6 +2221,65 @@ AIOT_DEVICE_MAPPING = [
                     },
                 }
             },
+            {
+                "sensor": {
+                    MK_INIT_PARAMS: {
+                        MK_HASS_NAME: "power",
+                        "device_class": SensorDeviceClass.POWER,
+                        "state_class": SensorStateClass.MEASUREMENT,
+                        "unit_of_measurement": UnitOfPower.WATT,
+                    },
+                    MK_RESOURCES: {"power": ("0.12.85", "_attr_native_value")},
+                }
+            },
+            {
+                "number": {
+                    MK_INIT_PARAMS: {
+                        MK_HASS_NAME: "min_brightness",
+                        "min_value": 1,
+                        "max_value": 100,
+                        "step": 1,
+                        "unit_of_measurement": "%",
+                    },
+                    MK_RESOURCES: {"min_brightness": ("1.7.69", "_attr_native_value")},
+                }
+            },
+            {
+                "number": {
+                    MK_INIT_PARAMS: {
+                        MK_HASS_NAME: "max_brightness",
+                        "min_value": 1,
+                        "max_value": 100,
+                        "step": 1,
+                        "unit_of_measurement": "%",
+                    },
+                    MK_RESOURCES: {"max_brightness": ("1.7.65", "_attr_native_value")},
+                }
+            },
+            {
+                "number": {
+                    MK_INIT_PARAMS: {
+                        MK_HASS_NAME: "turn_on_transition",
+                        "min_value": 0,
+                        "max_value": 65535,
+                        "step": 1,
+                        "unit_of_measurement": "ms",
+                    },
+                    MK_RESOURCES: {"turn_on_transition": ("1.11.85", "_attr_native_value")},
+                }
+            },
+            {
+                "number": {
+                    MK_INIT_PARAMS: {
+                        MK_HASS_NAME: "turn_off_transition",
+                        "min_value": 0,
+                        "max_value": 65535,
+                        "step": 1,
+                        "unit_of_measurement": "ms",
+                    },
+                    MK_RESOURCES: {"turn_off_transition": ("1.12.85", "_attr_native_value")},
+                }
+            },
         ],
     },
     {
